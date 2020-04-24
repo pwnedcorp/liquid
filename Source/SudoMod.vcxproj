@@ -47,6 +47,7 @@
     <IntDir>$(SolutionDir)Build\Intermediate\$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetExt>.dll</TargetExt>
+    <TargetName>liquidmenu</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)Build\$(Configuration)\</OutDir>

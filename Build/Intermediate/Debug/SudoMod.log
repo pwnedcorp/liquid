@@ -33,5 +33,5 @@ c:\users\alloa\documents\github\liquid\source\gui.h(90): warning C4091: 'typedef
 c:\users\alloa\documents\github\liquid\source\gui.h(93): warning C4091: 'typedef ': ignored on left of 'RGBAF' when no variable is declared
 c:\users\alloa\documents\github\liquid\source\gui.h(96): warning C4091: 'typedef ': ignored on left of 'RGBA' when no variable is declared
 c:\users\alloa\documents\github\liquid\source\gui.h(99): warning C4091: 'typedef ': ignored on left of 'RGB' when no variable is declared
-  SudoMod.vcxproj -> C:\Users\alloa\Documents\GitHub\liquid\Build\Debug\Nano 42.dll
-  SudoMod.vcxproj -> C:\Users\alloa\Documents\GitHub\liquid\Build\Debug\Nano 42.pdb (Full PDB)
+  SudoMod.vcxproj -> C:\Users\alloa\Documents\GitHub\liquid\Build\Debug\liquidmenu.dll
+  SudoMod.vcxproj -> C:\Users\alloa\Documents\GitHub\liquid\Build\Debug\liquidmenu.pdb (Full PDB)
