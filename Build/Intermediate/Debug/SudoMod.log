@@ -1,3 +1,0 @@
-﻿  Menu.cpp
-c:\users\kianr\onedrive\desktop\nano42\source\menu.cpp(17): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-c:\users\kianr\onedrive\desktop\nano42\source\menu.cpp(62): error C2143: syntax error: missing ';' before '}'

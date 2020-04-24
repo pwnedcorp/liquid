@@ -1,3 +1,8 @@
+// Liquid 1.0 Source made by hidingpwn and iAmSpace, if this leaks its because of GitHub lmao
+// Cheers
+
+// Important Stuff
+
 
 #pragma once
 #include "stdafx.h"
@@ -35,9 +40,28 @@ void TPto(Vector3 Coords)
 		ENTITY::SET_ENTITY_COORDS(Handle, Coords.x, Coords.y, Coords.z, 0, 0, 0, 1);
 }
 
+// Bools
+
+bool godmode = false; //Default Godmode Off
+
+// Features
+
+void Features()
+{
+	if (godmode)
+	{
+		PLAYER::SET_PLAYER_INVINCIBLE(PLAYER::PLAYER_ID(), 1); // Set Godmode On
+	}
+	else 
+	{
+		PLAYER::SET_PLAYER_INVINCIBLE(PLAYER::PLAYER_ID(), 0); // Set Godmode Off
+	}
+}
+
+// The Actual Fucking Menu
 
 void main() {
-	notifyMap("~o~Welcome to Liquid!");
+	notifyMap("~o~Welcome to Liquid 1.0");
 	while (true) {
 		Menu::Checks::Controlls();
 
@@ -56,9 +80,8 @@ void main() {
 			Menu::MenuOption("Protection ~b~>", sub);
 			Menu::MenuOption("Recovery ~b~>", money);
 			Menu::MenuOption("Miscellaneous ~b~>", other);
-			Menu::MenuOption("Model swapping ~b~>", model);
 			Menu::MenuOption("Settings ~b~>", settings);
-			Menu::MenuOption("Credits ~b~>", Credits)
+			Menu::MenuOption("Credits ~b~>", Credits);
 		}
 		break;
 
@@ -66,6 +89,7 @@ void main() {
 		case sub :
 		{
 			Menu::Title("Player");
+			Menu::Toggle("Godmode", godmode);
 		}
 		break;
 #pragma endregion
@@ -95,11 +119,7 @@ void main() {
 		case Credits:
 		{
 			Menu::Title("Credits");
-			Menu::Option("~~Credits~~");
-			Menu::Option("~~hidingpwn~~");
-			Menu::Option("~~iAmSpaceYT~~");
-			Menu::Option("~~Ninja Nico~~");
-			Menu::Option("~~Paid Modder~~");
+			Menu::Option("Edited by hidingpwn, iAmSpaceYT");
 		}
 		break;
 		case exitgta:
@@ -115,7 +135,6 @@ void main() {
 			Menu::MenuOption("Title Background ~b~>", settingstitlerect);
 			Menu::MenuOption("Selection Box ~b~>", settingsscroller);
 			Menu::MenuOption("Option Text ~b~>", settingsoptiontext);
-			
 			if (Menu::Option("MenuX plus")) {
 				if (Menu::Settings::menuX < 0.81f) Menu::Settings::menuX += 0.01f;
 			}
@@ -143,20 +162,9 @@ void main() {
 				Menu::Settings::titleText = { 255, 255, 255, 255, 7 };
 				Menu::Settings::titleRect = { 100, 0, 0, 255 };
 				Menu::Settings::scroller = { 100, 0, 0, 255 };
-				Menu::Settings::optionText = { 255, 255, 255, 255, 0 };
+				Menu::Settings::optionText = { 255, 255, 255, 255, 0 }	;
 				Menu::Settings::optionRect = { 0, 0, 0, 110 };
 			}
-			if (Menu::Option("iAmSpaceYT Theme")) {
-				Menu::Settings::titleText = { 255, 255, 255, 255 };
-				Menu::Settings::titleRect = { 0, 255, 255, 255 };
-				Menu::Settings::scroller = { 0, 255, 255, 255 };
-				Menu::Settings::optionText = { 255, 255, 255, 255, 0 };
-				Menu::Settings::optionRect = { 0, 0, 0, 110 };
-			}
-
-
-
-
 		}
 		break;
 		case settingstitlerect:
@@ -224,8 +232,7 @@ void main() {
 			if (Menu::Option("Chalet London")) { Menu::Settings::optionText.f = 0; }
 			if (Menu::Option("House Script")) { Menu::Settings::optionText.f = 1; }
 			if (Menu::Option("Monospace")) { Menu::Settings::optionText.f = 2; }
-			if (Menu::Option("Wing Dings")) { Menu::Settings::optionText.f = 3; }
-			if (Menu::Option("CCC - Default")) { Menu::Settings::optionText.f = 4; }
+			if (Menu::Option("Chalet Comprime Cologne")) { Menu::Settings::optionText.f = 4; }
 			if (Menu::Option("Pricedown")) { Menu::Settings::optionText.f = 7; }
 		}
 		break;
