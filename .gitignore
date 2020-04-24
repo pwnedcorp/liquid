@@ -1,0 +1,5 @@
+
+*.ipch
+*.db
+*.opendb
+.vs/Nano 42/v16/.suo
