@@ -1,0 +1,37 @@
+﻿  stdafx.cpp
+c:\users\alloa\documents\github\liquid\source\hooking.h(48): warning C4244: '=': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+c:\users\alloa\documents\github\liquid\source\hooking.h(58): warning C4244: 'return': conversion from 'uintptr_t' to 'uint32_t', possible loss of data
+c:\users\alloa\documents\github\liquid\source\hooking.h(71): warning C4244: '=': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+c:\users\alloa\documents\github\liquid\source\gui.h(83): warning C4091: 'extern ': ignored on left of 'SubMenus' when no variable is declared
+c:\users\alloa\documents\github\liquid\source\gui.h(87): warning C4091: 'typedef ': ignored on left of 'VECTOR2' when no variable is declared
+c:\users\alloa\documents\github\liquid\source\gui.h(90): warning C4091: 'typedef ': ignored on left of 'VECTOR2_2' when no variable is declared
+c:\users\alloa\documents\github\liquid\source\gui.h(93): warning C4091: 'typedef ': ignored on left of 'RGBAF' when no variable is declared
+c:\users\alloa\documents\github\liquid\source\gui.h(96): warning C4091: 'typedef ': ignored on left of 'RGBA' when no variable is declared
+c:\users\alloa\documents\github\liquid\source\gui.h(99): warning C4091: 'typedef ': ignored on left of 'RGB' when no variable is declared
+  Menu.cpp
+c:\users\alloa\documents\github\liquid\source\menu.cpp(22): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  NativeInvoker.cpp
+  GUI.cpp
+c:\users\alloa\documents\github\liquid\source\gui.cpp(475): warning C4018: '>': signed/unsigned mismatch
+c:\users\alloa\documents\github\liquid\source\gui.cpp(476): warning C4018: '>': signed/unsigned mismatch
+c:\users\alloa\documents\github\liquid\source\gui.cpp(477): warning C4018: '>': signed/unsigned mismatch
+  Memory.cpp
+  Log.cpp
+  keyboard.cpp
+  InputHook.cpp
+  Hooking.cpp
+  Functions.cpp
+  CrossMapping.cpp
+  Generating Code...
+  dllmain.cpp
+c:\users\alloa\documents\github\liquid\source\hooking.h(48): warning C4244: '=': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+c:\users\alloa\documents\github\liquid\source\hooking.h(58): warning C4244: 'return': conversion from 'uintptr_t' to 'uint32_t', possible loss of data
+c:\users\alloa\documents\github\liquid\source\hooking.h(71): warning C4244: '=': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+c:\users\alloa\documents\github\liquid\source\gui.h(83): warning C4091: 'extern ': ignored on left of 'SubMenus' when no variable is declared
+c:\users\alloa\documents\github\liquid\source\gui.h(87): warning C4091: 'typedef ': ignored on left of 'VECTOR2' when no variable is declared
+c:\users\alloa\documents\github\liquid\source\gui.h(90): warning C4091: 'typedef ': ignored on left of 'VECTOR2_2' when no variable is declared
+c:\users\alloa\documents\github\liquid\source\gui.h(93): warning C4091: 'typedef ': ignored on left of 'RGBAF' when no variable is declared
+c:\users\alloa\documents\github\liquid\source\gui.h(96): warning C4091: 'typedef ': ignored on left of 'RGBA' when no variable is declared
+c:\users\alloa\documents\github\liquid\source\gui.h(99): warning C4091: 'typedef ': ignored on left of 'RGB' when no variable is declared
+  SudoMod.vcxproj -> C:\Users\alloa\Documents\GitHub\liquid\Build\Debug\Nano 42.dll
+  SudoMod.vcxproj -> C:\Users\alloa\Documents\GitHub\liquid\Build\Debug\Nano 42.pdb (Full PDB)
